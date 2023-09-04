@@ -17,7 +17,7 @@ module.exports = createCoreController("api::order.order", ({ strapi }) => ({
             .findOne(product.id);
 
           console.log("this is item------->", item);
-          console.log("this is product------->", product);
+          console.log("this is product----->", product);
 
           return {
             price_data: {
